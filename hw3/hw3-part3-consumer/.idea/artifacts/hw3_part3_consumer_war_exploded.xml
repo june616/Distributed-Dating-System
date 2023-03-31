@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hw3-part3-consumer:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/hw3_part3_consumer_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hw3-part3-consumer" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.9.0" />
+          <element id="library" level="project" name="Maven: com.rabbitmq:amqp-client:5.16.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:2.0.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:2.0.3" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:4.2.3" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.11.1" />
+          <element id="library" level="project" name="Maven: org.json:json:20211205" />
+          <element id="library" level="project" name="Maven: org.apache.kafka:kafka-clients:2.4.1" />
+          <element id="library" level="project" name="Maven: com.github.luben:zstd-jni:1.4.3-1" />
+          <element id="library" level="project" name="Maven: org.lz4:lz4-java:1.6.0" />
+          <element id="library" level="project" name="Maven: org.xerial.snappy:snappy-java:1.1.7.3" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="hw3-part3-consumer/web/Web" />
+    </root>
+  </artifact>
+</component>
